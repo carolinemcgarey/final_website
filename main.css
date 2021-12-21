@@ -1,0 +1,117 @@
+html{
+  height:130%;
+  background-color: rgb(247, 133, 155) ;
+}
+#nav-bar, #nav-bar a {
+  font-size: 25pt;
+  color: rgb(0, 0, 0);
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+} 
+#nav-bar li{
+  display: inline;
+}
+#nav-bar a{
+  padding: 4px;
+}
+#divider {
+  height: 20px;
+  border-left: 1px solid black;
+  display: inline
+
+}
+#res-nav {
+  margin-left: 5px;
+}
+
+#footer {
+  position: absolute;
+  bottom: -30%;
+  right: 1%;
+}
+
+#logo {
+  width: 350px;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, 0%)
+}
+
+#logo img {
+  width: 100%;
+}
+
+#logo_caption {
+  margin-top: 0px;
+  text-align: right;
+}
+
+#header {
+  position: absolute;
+  left: 50%;
+  top: 42%;
+  transform: translate(-50%, 0%);
+  font-size: 4em;
+  text-align: center;
+}
+
+#intro {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, 0%);
+  width: 60%;
+  font-size: 2em
+}
+
+#img_box{
+  height: 38%;
+  width: min-content;
+  position: absolute;
+  left: 50%;
+  bottom: -20%;
+  transform: translate(-50%, 0%);
+  text-align: right;
+}
+#img_box img{
+  height: 100%;
+}
+
+/* Research page */
+
+
+#reasons {
+  font-size: 15pt;
+  position: absolute;
+  left: 50%;
+  top: 58%;
+  transform: translate(-50%, 0%);
+}
+
+/* Contact page */
+
+#org, #org1 {
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 20pt;
+  border: 3px solid;
+  border-radius: 10px;
+}
+
+#org p, #org1 p {
+  margin-left: 5px;
+}
+
+#org{
+  left: 15%;
+}
+
+#org1{
+  left: 55%;
+}
